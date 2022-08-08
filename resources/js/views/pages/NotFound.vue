@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <center>
+        <h1>404 Not Found</h1>
+    </center>
   </div>
 </template>
 
