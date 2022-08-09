@@ -1,5 +1,5 @@
 <template>
-  <nav class="w-full h-fit bg-slate-500">
+  <nav class="w-full h-fit">
     <div class="container mx-auto">
       <div class="flex flex-wrap justify-between">
         
@@ -13,32 +13,22 @@
           </div>
           <div class="inline-block mx-1">
             <a href="dashboard" class="no-underline">
-              <div class="px-4 py-2 border-2 rounded-xl drop-shadow-md text-center bg-cyan-900 text-stone-50 uppercase">
+              <div class="px-4 py-2 rounded-md drop-shadow-md text-center border-2 border-cyan-600 text-cyan-600 hover:text-white hover:border-white hover:bg-cyan-900 uppercase font-bold">
                 Dashboard
               </div>
             </a>
           </div>
           <div class="inline-block mx-1">
             <a href="#" class="no-underline">
-              <div class="px-4 py-2 border-2 rounded-xl drop-shadow-md text-center bg-cyan-900 text-stone-50 uppercase">
+              <div class="px-4 py-2 rounded-md drop-shadow-md text-center border-2 border-cyan-600 text-cyan-600 hover:text-white hover:border-white hover:bg-cyan-900 uppercase font-bold">
                 Cashier
               </div>
             </a>
           </div>
           <div class="inline-block mx-1">
             <a href="#" class="no-underline">
-              <div class="px-4 py-2 border-2 rounded-xl drop-shadow-md text-center bg-cyan-900 text-stone-50 uppercase">
+              <div class="px-4 py-2 rounded-md drop-shadow-md text-center border-2 border-cyan-600 text-cyan-600 hover:text-white hover:border-white hover:bg-cyan-900 uppercase font-bold">
                 Menu
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <div class="p-4">
-          <div class="inline-block mx-1">
-            <a href="#" class="no-underline">
-              <div class="px-4 py-2 border-2 rounded-xl drop-shadow-md text-center bg-red-700 text-stone-50 uppercase">
-                LogOut
               </div>
             </a>
           </div>
