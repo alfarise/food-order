@@ -3,18 +3,18 @@
         <navbar-component></navbar-component>
 
         <div
-            class="block mt-5 mx-auto w-5/6 h-96 bg-no-repeat bg-auto"
-            style="
-                background-image: url(https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-            "
-        >
-          <h1 class="text-6xl font-bold text-white text-center pt-10">FoodyOrdy.</h1>
-          <h5 class="text-3xl font-bold text-white text-center mb-10">Quick, Easy, and Don't Know</h5>
-          <a href="#">
-            <div class="bg-white p-10 ">
-              Start Now
-            </div>
-          </a>
+          class="w-full relative overflow-hidden bg-no-repeat bg-cover"
+          style="
+            background-image: url('https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg');
+            height: 640px;
+          "
+          >
+
+          <div class="absolute top-1/2 left-0 w-full overflow-hidden text-center -translate-y-1/2">
+            <h1 class="text-8xl font-bold text-cyan-600 my-5">FoodyOrdy.</h1>
+            <h5 class="text-3xl font-bold text-cyan-600 my-5">Quick, Easy, and Don't Know</h5>
+            <a href="#" class="inline-block bg-white p-3 my-5">Start Now</a>
+          </div>
         </div>
 
         <div class="block h-96 w-5/6 mx-auto mt-5">
@@ -29,7 +29,7 @@
             <div class="inline pt-10 mx-1">
                 <img
                     class="h-80 w-80 pr-14"
-                    src="../assets/Dashboard_IMG.png"
+                    src="../assets/picture1.png"
                     alt=""/>
             </div>
           </div>
